@@ -301,12 +301,11 @@ border:0; height:38px; }
     padding-bottom: 20px;
     font-size: 18px;
 }
-.hidden:hover .tel_text{
-    transform: scale(1.1,1.1);
-    transition: all 0.5s;
-    font-weight: bold;
-    color: rgb(3, 145, 65);
+.hidden:hover{
+    background-image: url(images/tel4.jpg);
+    display: block;
 }
+
 .hidden{
     float: right;
     background: url(images/tel.jpg) no-repeat bottom;
